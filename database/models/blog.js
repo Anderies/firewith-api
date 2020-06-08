@@ -17,9 +17,8 @@ const BlogSchema = new mongoose.Schema({
         default: 0
     },
     category_id: {
-        // type: mongoose.Types.ObjectId,
         type: Schema.Types.ObjectId, 
-        required: true
+        required: true,
     },
 });
 
